@@ -1,0 +1,5 @@
+rootProject.name = 'design-patterns'
+include 'observer'
+include 'singleton'
+include 'builder'
+
