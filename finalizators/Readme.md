@@ -16,7 +16,7 @@ Samo uruchomienie GC jest zależne od implementacji JVM, jak również od system
 Niezamierzone różne zachowanie na różnych środowiskach nie jest dobrą praktyką.
 
 # Metoda Cleaner clean()
-
+[Proper use cleaner](/main/java/pl/dp/cleaners/ProperUseCleaner.java)
 
 # Podsumowanie
 Nie należy korzystać z oczyszczaczy, a w przypadku Javy 8 lub
