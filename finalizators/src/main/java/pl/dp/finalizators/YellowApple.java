@@ -14,6 +14,7 @@ class YellowApple {
     protected void finalize() throws Throwable {
         //System.out.println(this.getClass().getName() + " : " + name + " : " + someText);
         super.finalize();
+ //       throw new IllegalArgumentException("Some custom exception");
     }
 
 }

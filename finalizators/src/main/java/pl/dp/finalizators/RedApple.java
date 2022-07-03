@@ -8,10 +8,11 @@ class RedApple {
 
     public RedApple() {
         someText = UUID.randomUUID();
+        //throw new IllegalArgumentException("Some custom exception");
     }
     @Override
     protected void finalize() throws Throwable {
-        System.out.println(this.getClass().getName() + " : " + name + " : " + someText);
+        //System.out.println(this.getClass().getName() + " : " + name + " : " + someText);
         super.finalize();
         throw new IllegalArgumentException("Some custom exception");
     }

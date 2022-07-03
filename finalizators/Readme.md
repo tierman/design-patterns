@@ -6,7 +6,7 @@ Samo uruchomienie GC jest zależne od implementacji JVM, jak również od system
 
 Niezamierzone różne zachowanie na różnych środowiskach nie jest dobrą praktyką.
 
-# Metoda clean()
+# Metoda Cleaner clean()
 
 
 ## JVM params
