@@ -3,4 +3,5 @@ include 'observer'
 include 'singleton'
 include 'builder'
 include 'factory'
+include 'finalizators'
 
